@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'stocks_products.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgreql_psycopg2'),
+        'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgresql_psycopg2'),
         'NAME': os.getenv('DB_NAME', default='d9h4dvalsm9qf1'),
         'USER': os.getenv('DB_USER', default='jfzipijxpwxkxu'),
         'PASSWORD': os.getenv('DB_PASSWORD', default='b82493cc65609df8e8f23c200c73e0607f6218f73ab23c647f494e755232189b'),
